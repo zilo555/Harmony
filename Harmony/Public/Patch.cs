@@ -98,6 +98,9 @@ namespace HarmonyLib
 		public Patch(HarmonyMethod method, int index, string owner)
 			: this(method.method, index, owner, method.priority, method.before, method.after, method.debug ?? false) { }
 
+		internal int MethodToken => methodToken;
+		internal string ModuleGUID => moduleGUID;
+
 		internal Patch(int index, string owner, int priority, string[] before, string[] after, bool debug, int methodToken, string moduleGUID)
 		{
 			this.index = index;

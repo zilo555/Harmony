@@ -5,6 +5,8 @@
 	.NET and Mono methods during runtime.
 </p>
 
+This branch maintains Harmony 2.x. Harmony 3 development, including Infix patching, is on [v3](https://github.com/pardeike/Harmony/tree/v3).
+
 ### About
 
 Harmony gives you an elegant and high level way to alter the functionality in applications written in C#. It works great in games and is well established in titles like
@@ -73,7 +75,7 @@ Harmony 1 is deprecated and not under active development anymore. The latest ver
 	<a href="https://www.nuget.org/packages/Lib.Harmony"><img src="https://img.shields.io/nuget/dt/Lib.Harmony?style=flat-squared&logo=nuget&label=Nuget%20Downloads&color=009900" /></a>
 </p>
 <p align="center">
-	<a href="https://github.com/pardeike/Harmony/actions/workflows/test.yml"><img src="https://img.shields.io/github/actions/workflow/status/pardeike/Harmony/test.yml?style=flat-squared&logo=github&label=CI%20Tests" /></a>
+	<a href="https://github.com/pardeike/Harmony/actions/workflows/test.yml"><img src="https://img.shields.io/github/actions/workflow/status/pardeike/Harmony/test.yml?branch=master&style=flat-squared&logo=github&label=CI%20Tests" /></a>
 	<a href="https://discord.gg/xXgghXR"><img src="https://img.shields.io/discord/131466550938042369.svg?style=flat-squared&logo=discord&label=Official%20Discord" /></a>
 </p>
 <p align="center">

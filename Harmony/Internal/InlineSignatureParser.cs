@@ -133,7 +133,7 @@ namespace HarmonyLib
 						return fptr;
 
 					case MetadataType.ByReference:
-						return ((Type)ReadTypeSignature()).MakePointerType();
+						return ((Type)ReadTypeSignature()).MakeByRefType();
 
 					// System.Reflection lacks PinnedType.
 					/*
