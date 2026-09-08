@@ -2,6 +2,10 @@
 
 # Harmony 2
 
+You are reading the Harmony 2.x documentation, the current stable major version.
+
+[Harmony 2.x documentation](https://harmony.pardeike.net/v2/) · [Harmony 3 preview documentation](https://harmony.pardeike.net/v3/)
+
 ## Introduction
 
 Harmony gives you an elegant and high level way to **alter functionality** in applications written in C#. It does this at **runtime** by monkey patching methods unlike other solutions that change the content of dll files.
